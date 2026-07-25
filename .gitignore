@@ -1,0 +1,44 @@
+# ==========================================
+# Visual Studio / MSVC Specific Files
+# ==========================================
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.filters
+
+# ==========================================
+# CMake Specific Files
+# ==========================================
+# Ignore the default Visual Studio CMake build output directory
+out/
+
+# Ignore generic CMake build folders if generated manually or via CLI
+build/
+build*/
+cmake-build-*/
+
+# Ignore generated CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ==========================================
+# Local/User Configuration Presets
+# ==========================================
+# NEVER track user local presets, but KEEP your shared CMakePresets.json if you have one
+CMakeUserPresets.json
